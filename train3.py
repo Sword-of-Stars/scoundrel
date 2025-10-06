@@ -33,10 +33,14 @@ def eval_genomes(genomes, config):
     # Evaluate all agents
     
     for i, agent in enumerate(agents):
-        game = Game(player=agent)
-        result = game.run()
+        result = 0
+        for x in range(5):  # Play 5 games each
+            game = Game(player=agent)
+            result += game.run()
 
-        ge[i].fitness = result
+        average_fitness = result / 5.0
+
+        ge[i].fitness = average_fitness
     
 
 def run(config_file):
@@ -56,10 +60,10 @@ def run(config_file):
     p.add_reporter(neat.StdOutReporter(True))
     stats = neat.StatisticsReporter()
     p.add_reporter(stats)
-    #p.add_reporter(neat.Checkpointer(5))
+    p.add_reporter(neat.Checkpointer(20))
 
     # Run for up to 50 generations.
-    winner = p.run(eval_genomes, 50)
+    winner = p.run(eval_genomes, 2000)
 
     # show final stats
     print('\nBest genome:\n{!s}'.format(winner))

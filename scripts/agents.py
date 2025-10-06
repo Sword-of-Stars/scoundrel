@@ -46,26 +46,37 @@ class NEAT_Agent():
         return options[choice]
     
     def get_repr(self, state):
-        inpt = [
-        self.player.health,
-        self.player.score_so_far
-        ]
+        """
+        Get normalized input representation for the neural network.
+        All values scaled to roughly [-1, 1] or [0, 1] range.
+        """
+        inpt = []
 
-        # give it the highest card the weapon can handle
+        # Normalize health (0-20 -> 0-1)
+        inpt.append(self.player.health / 20.0)
+
+        # Normalize score (assume max reasonable score ~100, can adjust)
+        inpt.append(min(self.player.score_so_far / 100.0, 1.0))
+
+        # Normalize weapon capacity (1-14 -> 0-1, 0 if no weapon)
         weapon_capacity = 0 if self.player.weapon == None else self.player.weapon.get_strongest_possible()
-        inpt.append(weapon_capacity)
-        inpt.append(self.player.can_use_potion) # should always be true here
+        inpt.append(weapon_capacity / 14.0)
 
-        # create encoded card representations
+        # Boolean for potion availability (0 or 1)
+        inpt.append(float(self.player.can_use_potion))
+
+        # Encode up to 4 cards in the room
         for i in range(4):
-            if i <= (len(state.room) - 1):
+            if i < len(state.room):
                 card = state.room[i]
-                rep = [card.n_rank, 0, 0, 0]
-                rep[card.n_suit] = 1
-                inpt.extend(rep)
+                # Normalize rank (1-14 -> 0-1)
+                inpt.append(card.n_rank / 14.0)
+                # One-hot encode suit (3 binary values)
+                inpt.append(1.0 if card.n_suit == 0 else 0.0)  # Spades/Clubs
+                inpt.append(1.0 if card.n_suit == 1 else 0.0)  # Diamonds
+                inpt.append(1.0 if card.n_suit == 2 else 0.0)  # Hearts
+            else:
+                # No card in this slot
+                inpt.extend([0.0, 0.0, 0.0, 0.0])
 
-            # handle rooms with less than 3 cards
-            else: 
-                inpt.extend([0,0,0,0])
-        
         return inpt
