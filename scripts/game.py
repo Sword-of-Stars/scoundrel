@@ -29,6 +29,7 @@ class Game():
         self.deck.shuffle()
         self.deal_new_room()
         self.player.reset()
+        self.action_log.clear()
 
 
         self.can_run_away = True
@@ -38,20 +39,19 @@ class Game():
             self.room.append(self.deck.deal_card()) 
 
     def show_room(self):
-        # print("================")
-        # print("= Dungeon Room =")
-        # print("================")
+        print("================")
+        print("= Dungeon Room =")
+        print("================")
         
         for card in self.room:
-            pass
-            # print(card)
+            print(card)
 
     def show_action_log(self):
-        # print("\n===== ACTION LOG =====")
-        # for action in self.action_log[-5:]:
-            # pass
-            # print(action)
-        # print("======================\n")
+        print("\n===== ACTION LOG =====")
+        for action in self.action_log[-5:]:
+            pass
+            print(action)
+        print("======================\n")
         pass
 
     def show_game(self):
@@ -67,7 +67,7 @@ class Game():
         self.can_run_away = False
 
     def handle_room(self):
-        #os.system("cls")
+        os.system("cls")
 
         self.can_run_away = True
         # now, the player engages with the room
@@ -80,7 +80,7 @@ class Game():
             if self.final_card_is_potion():
                 break
 
-            # print("\nYour options are:")
+            print("\nYour options are:")
             options = []
 
             for card in self.room:
@@ -97,15 +97,15 @@ class Game():
                         options.append(Action(self.player.use_potion, card, "Drink"))
 
             
-            #for i, opt in enumerate(options):
-                # print(f"{i+1}) {opt}")
-            # print()
+            for i, opt in enumerate(options):
+                print(f"{i+1}) {opt}")
+            print()
 
             action = self.player.choose_action(options, self)
             
             self.room.remove(action.arg)
-            # print()
-            #os.system("cls")
+            print()
+            os.system("cls")
 
             self.action_log.append(action.execute())
 
@@ -144,7 +144,7 @@ class Game():
     def run(self):
 
         while not self.is_game_over():
-            #os.system("cls")
+            os.system("cls")
             
             self.show_game()
 
@@ -159,7 +159,7 @@ class Game():
 
         if self.player.alive:
             score = self.player.health + self.final_card_is_potion()
-            # print(f"Congrats! You cleared the dungeon. Your final score is {score}")
+            print(f"Congrats! You cleared the dungeon. Your final score is {score}")
         else:
             score = self.player.health
             remaining_cards = self.room + self.deck.cards
@@ -167,6 +167,6 @@ class Game():
                 if isinstance(card, Monster):
                     score -= card.n_rank
 
-            # print(f"You died. Your final score was {score}")
+            print(f"You died. Your final score was {score}")
 
         return score

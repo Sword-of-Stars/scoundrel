@@ -41,7 +41,7 @@ class Player():
             return validate_input("\nWould you like to run away from this room? (y/n): ")
 
         # automated agent decides
-        if self.agent is not None and hasattr(self.agent, "choose_run_away"):
+        elif self.agent is not None:
             return self.agent.choose_run_away(game)
 
         # default for non-human without an agent
@@ -54,7 +54,7 @@ class Player():
             return action
 
         # agent-provided action: prefer an agent method if present
-        if self.agent is not None and hasattr(self.agent, "choose_action"):
+        elif self.agent is not None:
             # agent returns index; we map to Action object expected by Game
             idx = self.agent.choose_action(game, options)
             # guard
@@ -62,7 +62,6 @@ class Player():
                 return options[idx]
 
         # default is to pick the first option
-        #print("Agent failed")
         return options[0]
 
     @property
@@ -105,8 +104,8 @@ class Player():
         self.health -= amount
 
     def show_stats(self):
-        #print(self)
-        pass
+        print(self)
+        
 
     def __repr__(self):
         msg =  "================\n"

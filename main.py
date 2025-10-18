@@ -4,7 +4,7 @@ from scripts.game import Game
 from scripts.input_validation import validate_input
 import random
 
-random.seed(42)
+#random.seed(42)
 
 game = Game()
 

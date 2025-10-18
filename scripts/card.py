@@ -27,7 +27,7 @@ class Card():
     def __init__(self, suit, rank):
         self.suit = suit
 
-        self.type = sut[suit]
+        self.n_suit = sut[suit]
 
         self.rank = rank
         self.n_rank = lut[rank]
