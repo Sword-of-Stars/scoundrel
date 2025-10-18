@@ -38,6 +38,14 @@ class Weapon(Card):
         
         return monster.n_rank, True # otherwise, the player fights it barehanded
     
+    def remove_monster(self, monster=None):
+        """Remove a monster from the weapon. If monster is specified, remove that specific monster,
+        otherwise remove the last monster added."""
+        if monster is None:
+            self.monsters.pop()
+        else:
+            self.monsters.remove(monster)
+    
     def __repr__(self):
         m_string = "no monsters" if len(self.monsters) == 0 else self.monsters[-1] #" ".join(str(m) for m in self.monsters)
         return f"Weapon ({self.rank}) with {m_string} attached"

@@ -1,0 +1,867 @@
+================
+= Player Stats =
+================
+Health: 20
+No weapon equipped
+
+
+===== ACTION LOG =====
+======================
+
+================
+= Dungeon Room =
+================
+Monster (8), Clubs
+Monster (J), Clubs
+Monster (6), Clubs
+Monster (10), Clubs
+================
+= Player Stats =
+================
+Health: 20
+No weapon equipped
+
+================
+= Player Stats =
+================
+Health: 20
+No weapon equipped
+
+
+===== ACTION LOG =====
+Ran away! Entering next room ...
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (6) with no monsters attached
+Monster (Q), Clubs
+Potion (10)
+Weapon (8) with no monsters attached
+================
+= Player Stats =
+================
+Health: 20
+No weapon equipped
+
+
+===== ACTION LOG =====
+Ran away! Entering next room ...
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (6) with no monsters attached
+Monster (Q), Clubs
+Potion (10)
+Weapon (8) with no monsters attached
+
+Your options are:
+1) Equip Weapon (6) with no monsters attached
+2) Fight Monster (Q), Clubs
+3) Drink Potion (10)
+4) Equip Weapon (8) with no monsters attached
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (6) with no monsters attached
+
+
+===== ACTION LOG =====
+Ran away! Entering next room ...
+You equipped Weapon (6) with no monsters attached
+======================
+
+================
+= Dungeon Room =
+================
+Monster (Q), Clubs
+Potion (10)
+Weapon (8) with no monsters attached
+
+Your options are:
+1) Fight Monster (Q), Clubs
+2) Drink Potion (10)
+3) Equip Weapon (8) with no monsters attached
+
+
+================
+= Player Stats =
+================
+Health: 14
+Weapon (6) with Monster (Q), Clubs attached
+
+
+===== ACTION LOG =====
+Ran away! Entering next room ...
+You equipped Weapon (6) with no monsters attached
+You fought Monster (Q), Clubs with your weapon and took 6 damage
+======================
+
+================
+= Dungeon Room =
+================
+Potion (10)
+Weapon (8) with no monsters attached
+
+Your options are:
+1) Drink Potion (10)
+2) Equip Weapon (8) with no monsters attached
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (6) with Monster (Q), Clubs attached
+
+
+===== ACTION LOG =====
+Ran away! Entering next room ...
+You equipped Weapon (6) with no monsters attached
+You fought Monster (Q), Clubs with your weapon and took 6 damage
+You drank Potion (10) and gained 6 health!
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (8) with no monsters attached
+================
+= Player Stats =
+================
+Health: 20
+Weapon (6) with Monster (Q), Clubs attached
+
+
+===== ACTION LOG =====
+Ran away! Entering next room ...
+You equipped Weapon (6) with no monsters attached
+You fought Monster (Q), Clubs with your weapon and took 6 damage
+You drank Potion (10) and gained 6 health!
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (8) with no monsters attached
+Monster (6), Spades
+Monster (K), Spades
+Potion (6)
+================
+= Player Stats =
+================
+Health: 20
+Weapon (6) with Monster (Q), Clubs attached
+
+
+===== ACTION LOG =====
+Ran away! Entering next room ...
+You equipped Weapon (6) with no monsters attached
+You fought Monster (Q), Clubs with your weapon and took 6 damage
+You drank Potion (10) and gained 6 health!
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (8) with no monsters attached
+Monster (6), Spades
+Monster (K), Spades
+Potion (6)
+
+Your options are:
+1) Equip Weapon (8) with no monsters attached
+2) Fight Monster (6), Spades
+3) Fight Monster (K), Spades
+4) Drink Potion (6)
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (8) with no monsters attached
+
+
+===== ACTION LOG =====
+You equipped Weapon (6) with no monsters attached
+You fought Monster (Q), Clubs with your weapon and took 6 damage
+You drank Potion (10) and gained 6 health!
+Room cleared! Dealing new room ...
+You equipped Weapon (8) with no monsters attached
+======================
+
+================
+= Dungeon Room =
+================
+Monster (6), Spades
+Monster (K), Spades
+Potion (6)
+
+Your options are:
+1) Fight Monster (6), Spades
+2) Fight Monster (K), Spades
+3) Drink Potion (6)
+
+
+================
+= Player Stats =
+================
+Health: 15
+Weapon (8) with Monster (K), Spades attached
+
+
+===== ACTION LOG =====
+You fought Monster (Q), Clubs with your weapon and took 6 damage
+You drank Potion (10) and gained 6 health!
+Room cleared! Dealing new room ...
+You equipped Weapon (8) with no monsters attached
+You fought Monster (K), Spades with your weapon and took 5 damage
+======================
+
+================
+= Dungeon Room =
+================
+Monster (6), Spades
+Potion (6)
+
+Your options are:
+1) Fight Monster (6), Spades
+2) Drink Potion (6)
+
+
+================
+= Player Stats =
+================
+Health: 15
+Weapon (8) with Monster (6), Spades attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You equipped Weapon (8) with no monsters attached
+You fought Monster (K), Spades with your weapon and took 5 damage
+You fought Monster (6), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Potion (6)
+================
+= Player Stats =
+================
+Health: 15
+Weapon (8) with Monster (6), Spades attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You equipped Weapon (8) with no monsters attached
+You fought Monster (K), Spades with your weapon and took 5 damage
+You fought Monster (6), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Potion (6)
+Potion (2)
+Weapon (4) with no monsters attached
+Monster (5), Spades
+================
+= Player Stats =
+================
+Health: 15
+Weapon (8) with Monster (6), Spades attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You equipped Weapon (8) with no monsters attached
+You fought Monster (K), Spades with your weapon and took 5 damage
+You fought Monster (6), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Potion (6)
+Potion (2)
+Weapon (4) with no monsters attached
+Monster (5), Spades
+
+Your options are:
+1) Drink Potion (6)
+2) Drink Potion (2)
+3) Equip Weapon (4) with no monsters attached
+4) Fight Monster (5), Spades
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (8) with Monster (6), Spades attached
+
+
+===== ACTION LOG =====
+You equipped Weapon (8) with no monsters attached
+You fought Monster (K), Spades with your weapon and took 5 damage
+You fought Monster (6), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+You drank Potion (6) and gained 5 health!
+======================
+
+================
+= Dungeon Room =
+================
+Potion (2)
+Weapon (4) with no monsters attached
+Monster (5), Spades
+
+Your options are:
+1) Discard Potion (2)
+2) Equip Weapon (4) with no monsters attached
+3) Fight Monster (5), Spades
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (8) with Monster (6), Spades attached
+
+
+===== ACTION LOG =====
+You fought Monster (K), Spades with your weapon and took 5 damage
+You fought Monster (6), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+You drank Potion (6) and gained 5 health!
+You discarded Potion (2)
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (4) with no monsters attached
+Monster (5), Spades
+
+Your options are:
+1) Equip Weapon (4) with no monsters attached
+2) Fight Monster (5), Spades
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (8) with Monster (5), Spades attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You drank Potion (6) and gained 5 health!
+You discarded Potion (2)
+You fought Monster (5), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (4) with no monsters attached
+================
+= Player Stats =
+================
+Health: 20
+Weapon (8) with Monster (5), Spades attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You drank Potion (6) and gained 5 health!
+You discarded Potion (2)
+You fought Monster (5), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (4) with no monsters attached
+Monster (3), Spades
+Monster (4), Spades
+Weapon (7) with no monsters attached
+================
+= Player Stats =
+================
+Health: 20
+Weapon (8) with Monster (5), Spades attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You drank Potion (6) and gained 5 health!
+You discarded Potion (2)
+You fought Monster (5), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (4) with no monsters attached
+Monster (3), Spades
+Monster (4), Spades
+Weapon (7) with no monsters attached
+
+Your options are:
+1) Equip Weapon (4) with no monsters attached
+2) Fight Monster (3), Spades
+3) Fight Monster (4), Spades
+4) Equip Weapon (7) with no monsters attached
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (8) with Monster (4), Spades attached
+
+
+===== ACTION LOG =====
+You drank Potion (6) and gained 5 health!
+You discarded Potion (2)
+You fought Monster (5), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+You fought Monster (4), Spades with your weapon and took 0 damage
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (4) with no monsters attached
+Monster (3), Spades
+Weapon (7) with no monsters attached
+
+Your options are:
+1) Equip Weapon (4) with no monsters attached
+2) Fight Monster (3), Spades
+3) Equip Weapon (7) with no monsters attached
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (4) with no monsters attached
+
+
+===== ACTION LOG =====
+You discarded Potion (2)
+You fought Monster (5), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+You fought Monster (4), Spades with your weapon and took 0 damage
+You equipped Weapon (4) with no monsters attached
+======================
+
+================
+= Dungeon Room =
+================
+Monster (3), Spades
+Weapon (7) with no monsters attached
+
+Your options are:
+1) Fight Monster (3), Spades
+2) Equip Weapon (7) with no monsters attached
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (4) with Monster (3), Spades attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You fought Monster (4), Spades with your weapon and took 0 damage
+You equipped Weapon (4) with no monsters attached
+You fought Monster (3), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (7) with no monsters attached
+================
+= Player Stats =
+================
+Health: 20
+Weapon (4) with Monster (3), Spades attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You fought Monster (4), Spades with your weapon and took 0 damage
+You equipped Weapon (4) with no monsters attached
+You fought Monster (3), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (7) with no monsters attached
+Potion (3)
+Monster (2), Clubs
+Potion (7)
+================
+= Player Stats =
+================
+Health: 20
+Weapon (4) with Monster (3), Spades attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You fought Monster (4), Spades with your weapon and took 0 damage
+You equipped Weapon (4) with no monsters attached
+You fought Monster (3), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (7) with no monsters attached
+Potion (3)
+Monster (2), Clubs
+Potion (7)
+
+Your options are:
+1) Equip Weapon (7) with no monsters attached
+2) Drink Potion (3)
+3) Fight Monster (2), Clubs
+4) Drink Potion (7)
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (4) with Monster (3), Spades attached
+
+
+===== ACTION LOG =====
+You fought Monster (4), Spades with your weapon and took 0 damage
+You equipped Weapon (4) with no monsters attached
+You fought Monster (3), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+You drank Potion (3) and gained 0 health!
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (7) with no monsters attached
+Monster (2), Clubs
+Potion (7)
+
+Your options are:
+1) Equip Weapon (7) with no monsters attached
+2) Fight Monster (2), Clubs
+3) Discard Potion (7)
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (4) with Monster (2), Clubs attached
+
+
+===== ACTION LOG =====
+You equipped Weapon (4) with no monsters attached
+You fought Monster (3), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+You drank Potion (3) and gained 0 health!
+You fought Monster (2), Clubs with your weapon and took 0 damage
+======================
+
+================
+= Dungeon Room =
+================
+Weapon (7) with no monsters attached
+Potion (7)
+
+Your options are:
+1) Equip Weapon (7) with no monsters attached
+2) Discard Potion (7)
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (7) with no monsters attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You drank Potion (3) and gained 0 health!
+You fought Monster (2), Clubs with your weapon and took 0 damage
+You equipped Weapon (7) with no monsters attached
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Potion (7)
+================
+= Player Stats =
+================
+Health: 20
+Weapon (7) with no monsters attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You drank Potion (3) and gained 0 health!
+You fought Monster (2), Clubs with your weapon and took 0 damage
+You equipped Weapon (7) with no monsters attached
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Potion (7)
+Monster (A), Clubs
+Monster (8), Spades
+Monster (7), Clubs
+================
+= Player Stats =
+================
+Health: 20
+Weapon (7) with no monsters attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You drank Potion (3) and gained 0 health!
+You fought Monster (2), Clubs with your weapon and took 0 damage
+You equipped Weapon (7) with no monsters attached
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Potion (7)
+Monster (A), Clubs
+Monster (8), Spades
+Monster (7), Clubs
+
+Your options are:
+1) Drink Potion (7)
+2) Fight Monster (A), Clubs
+3) Fight Monster (8), Spades
+4) Fight Monster (7), Clubs
+
+
+================
+= Player Stats =
+================
+Health: 13
+Weapon (7) with Monster (A), Clubs attached
+
+
+===== ACTION LOG =====
+You drank Potion (3) and gained 0 health!
+You fought Monster (2), Clubs with your weapon and took 0 damage
+You equipped Weapon (7) with no monsters attached
+Room cleared! Dealing new room ...
+You fought Monster (A), Clubs with your weapon and took 7 damage
+======================
+
+================
+= Dungeon Room =
+================
+Potion (7)
+Monster (8), Spades
+Monster (7), Clubs
+
+Your options are:
+1) Drink Potion (7)
+2) Fight Monster (8), Spades
+3) Fight Monster (7), Clubs
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (7) with Monster (A), Clubs attached
+
+
+===== ACTION LOG =====
+You fought Monster (2), Clubs with your weapon and took 0 damage
+You equipped Weapon (7) with no monsters attached
+Room cleared! Dealing new room ...
+You fought Monster (A), Clubs with your weapon and took 7 damage
+You drank Potion (7) and gained 7 health!
+======================
+
+================
+= Dungeon Room =
+================
+Monster (8), Spades
+Monster (7), Clubs
+
+Your options are:
+1) Fight Monster (8), Spades
+2) Fight Monster (7), Clubs
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (7) with Monster (8), Spades attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You fought Monster (A), Clubs with your weapon and took 7 damage
+You drank Potion (7) and gained 7 health!
+You fought Monster (8), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Monster (7), Clubs
+================
+= Player Stats =
+================
+Health: 20
+Weapon (7) with Monster (8), Spades attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You fought Monster (A), Clubs with your weapon and took 7 damage
+You drank Potion (7) and gained 7 health!
+You fought Monster (8), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Monster (7), Clubs
+Monster (A), Spades
+Monster (K), Clubs
+Potion (5)
+================
+= Player Stats =
+================
+Health: 20
+Weapon (7) with Monster (8), Spades attached
+
+
+===== ACTION LOG =====
+Room cleared! Dealing new room ...
+You fought Monster (A), Clubs with your weapon and took 7 damage
+You drank Potion (7) and gained 7 health!
+You fought Monster (8), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+======================
+
+================
+= Dungeon Room =
+================
+Monster (7), Clubs
+Monster (A), Spades
+Monster (K), Clubs
+Potion (5)
+
+Your options are:
+1) Fight Monster (7), Clubs
+2) Fight Monster (A), Spades
+3) Fight Monster (K), Clubs
+4) Drink Potion (5)
+
+
+================
+= Player Stats =
+================
+Health: 20
+Weapon (7) with Monster (7), Clubs attached
+
+
+===== ACTION LOG =====
+You fought Monster (A), Clubs with your weapon and took 7 damage
+You drank Potion (7) and gained 7 health!
+You fought Monster (8), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+You fought Monster (7), Clubs with your weapon and took 0 damage
+======================
+
+================
+= Dungeon Room =
+================
+Monster (A), Spades
+Monster (K), Clubs
+Potion (5)
+
+Your options are:
+1) Fight Monster (A), Spades
+2) Fight Monster (K), Clubs
+3) Drink Potion (5)
+
+
+================
+= Player Stats =
+================
+Health: 6
+Weapon (7) with Monster (7), Clubs attached
+
+
+===== ACTION LOG =====
+You drank Potion (7) and gained 7 health!
+You fought Monster (8), Spades with your weapon and took 0 damage
+Room cleared! Dealing new room ...
+You fought Monster (7), Clubs with your weapon and took 0 damage
+You fought Monster (A), Spades barehanded and took 14 damage
+======================
+
+================
+= Dungeon Room =
+================
+Monster (K), Clubs
+Potion (5)
+
+Your options are:
+1) Fight Monster (K), Clubs
+2) Drink Potion (5)
+
+
+You died. Your final score was -114
